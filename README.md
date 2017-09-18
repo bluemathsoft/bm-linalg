@@ -1,7 +1,10 @@
 
-@bluemath/linalg
+## @bluemath/linalg
 
-This sub-package of BlueMath library implements Linear Algebra routines.
+Linear Algebra submodule of BlueMath library
+
+[![NPM package](https://img.shields.io/npm/v/@bluemath/linalg.svg)](https://www.npmjs.com/package/@bluemath/linalg)
+
 
 It is implemented on top of LAPACK library compiled to Javascript using
 Emscripten.
