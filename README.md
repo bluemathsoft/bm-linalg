@@ -9,9 +9,6 @@ Linear Algebra submodule of BlueMath library
 &#8226;
 [Tests](bm/linalg/test/index.html)
 
-It is implemented on top of LAPACK library compiled to Javascript using
-Emscripten.
-
 * Implemented on top of LAPACK library, compiled to Javascript using Emscripten.
 * Solving of linear equation systems (LU decomposition, Least Square)
 * Matrix decomposition operations (SVD, Cholesky, QR)
