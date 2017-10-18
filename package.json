@@ -6,6 +6,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build-test": "webpack --config webpack.test.config.js",
+    "deploy-test": "cp ./build/bluemath-linalg-test.js ../bluemathsoft.github.io/bm/linalg/test/",
     "watch-test": "webpack --watch --config webpack.test.config.js",
     "build-docs": "rm -rf docs/* && typedoc --excludeExternals --excludeNotExported --excludePrivate --out ./docs --mode file --readme docindex.md",
     "build-docs-prod": "rm -rf docs/* && typedoc --excludeExternals --excludeNotExported --excludePrivate --out ./docs --mode file --readme docindex.md --gaID \"UA-99857402-1\" ",
