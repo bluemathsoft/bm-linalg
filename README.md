@@ -4,13 +4,47 @@
 Linear Algebra submodule of BlueMath library
 
 [![NPM package](https://img.shields.io/npm/v/@bluemath/linalg.svg)](https://www.npmjs.com/package/@bluemath/linalg)
-
+&#8226;
+[Docs](/bm/linalg/docs/index.html)
+&#8226;
+[Tests](bm/linalg/test/index.html)
 
 It is implemented on top of LAPACK library compiled to Javascript using
 Emscripten.
 
-* Low level access to LAPACK routines (BLAS 1,2,3 and higher level
-LAPACK routines).
-* Higher level Linear Algebra API, e.g. solution of linear equation
-systems - solve, Least squares - lstsq, Decompositions - svd, qr,
-cholesky, Eigen value calculations)
+* Implemented on top of LAPACK library, compiled to Javascript using Emscripten.
+* Solving of linear equation systems (LU decomposition, Least Square)
+* Matrix decomposition operations (SVD, Cholesky, QR)
+* Standard matrix properties (Rank, Determinant, Inverse)
+
+Usage
+===
+
+    npm install @bluemath/linalg
+    
+```typescript
+import {det} from '@bluemath/linalg'
+import {arr} from '@bluemath/common'
+
+let A = arr([
+    [3,4,5],
+    [0,3,4],
+    [1,3,5]
+]);
+console.log('Determinant',det(A));
+```
+
+Alternatively,
+
+    npm install bluemath
+    
+```typescript
+import {arr,linalg} from 'bluemath'
+
+let A = arr([
+    [3,4,5],
+    [0,3,4],
+    [1,3,5]
+]);
+console.log('Determinant',linalg.det(A));
+```
