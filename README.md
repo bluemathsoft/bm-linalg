@@ -5,9 +5,9 @@ Linear Algebra submodule of BlueMath library
 
 [![NPM package](https://img.shields.io/npm/v/@bluemath/linalg.svg)](https://www.npmjs.com/package/@bluemath/linalg)
 &#8226;
-[Docs](/bm/linalg/docs/index.html)
+[Docs](http://www.bluemathsoftware.com/bm/linalg/docs/index.html)
 &#8226;
-[Tests](bm/linalg/test/index.html)
+[Tests](http://www.bluemathsoftware.com/bm/linalg/test/index.html)
 
 * Implemented on top of LAPACK library, compiled to Javascript using Emscripten.
 * Solving of linear equation systems (LU decomposition, Least Square)
