@@ -8,6 +8,8 @@ Linear Algebra submodule of BlueMath library
 [Docs](http://www.bluemathsoftware.com/bm/linalg/docs/index.html)
 &#8226;
 [Tests](http://www.bluemathsoftware.com/bm/linalg/test/index.html)
+&#8226;
+[Interactive Shell](http://www.bluemathsoftware.com/shell/index.html)
 
 * Implemented on top of LAPACK library, compiled to Javascript using Emscripten.
 * Solving of linear equation systems (LU decomposition, Least Square)
